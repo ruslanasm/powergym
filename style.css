@@ -474,10 +474,13 @@ margin-right: 1rem;
 border-radius: 5px;
 }
 
+.form__wrap .button{
+color: var(--primaryBlack);
+}
+
 .form__wrap button:hover{
-box-shadow: inset 400px 0 0 0 #111;
-transition: all 0.7s ease-in;
-      
+background: var(--secondaryColor);
+transition: all 0.4s ease;
 }
 
 @media screen and (max-width: 768px) {
@@ -495,6 +498,7 @@ transition: all 0.7s ease-in;
 
     .form__wrap button{
         width: 100%;
+
         }
 
     .email label {
